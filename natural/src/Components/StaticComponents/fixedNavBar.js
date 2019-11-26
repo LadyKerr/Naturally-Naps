@@ -1,8 +1,5 @@
 import React from "react";
-import { Route, NavLink}  from 'react-router-dom';
-import Classes from '../Classes/classes';
-import Services from '../Services/services';
-import Contact from '../Contact/contact'
+import { NavLink }  from 'react-router-dom';
 
 function FixedNav() {
     return (
