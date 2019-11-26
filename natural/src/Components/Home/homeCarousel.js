@@ -18,9 +18,6 @@ function HomeCarousel() {
                 {homeFeatured.map((item, index) => (
                     <div key={index}>
                         <div>
-                            <h3>
-                                {item.title}
-                            </h3>
                             <img src={item.image} alt={item.title}></img>
                         </div>
                     </div>
