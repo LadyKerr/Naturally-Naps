@@ -3,7 +3,10 @@ import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "./homeCarousel.css";
+
 import { homeFeatured } from '../../Data/Data'
+
+
 function HomeCarousel() {
     const settings = {
         dots: true,
