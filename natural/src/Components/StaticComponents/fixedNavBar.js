@@ -1,8 +1,5 @@
 import React from "react";
-import { Route, NavLink}  from 'react-router-dom';
-import Classes from '../Classes/classes';
-import Services from '../Services/services';
-import Contact from '../Contact/contact'
+import { NavLink }  from 'react-router-dom';
 
 function FixedNav() {
     return (
@@ -14,7 +11,7 @@ function FixedNav() {
                 <NavLink to='/contact'>Contact</NavLink>
             </div>
             <div>
-                <button>Book Us</button>
+                <button><a href='https://booksy.com/en-us/188605_naturally-naps-salon_hair-salon_39947_milwaukee'>Book Appointment</a></button>
             </div>
         </div>
     );
